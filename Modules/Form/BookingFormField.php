@@ -40,6 +40,7 @@ abstract class BookingFormField implements \JsonSerializable
         return $this;
     }
 
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->toPayload();
