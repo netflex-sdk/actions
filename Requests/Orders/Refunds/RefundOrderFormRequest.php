@@ -2,9 +2,9 @@
 
 namespace Netflex\Actions\Requests\Orders\Refunds;
 
-use Illuminate\Foundation\Http\FormRequest;
+use Netflex\Commerce\Order;
 
-class RefundOrderFormRequest extends FormRequest
+class RefundOrderFormRequest extends \Illuminate\Foundation\Http\FormRequest
 {
     public function rules()
     {
